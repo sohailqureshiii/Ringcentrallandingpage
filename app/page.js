@@ -15,6 +15,11 @@ import UpArrow from "../public/up-arrow.svg";
 import Link from "next/link";
 import Head from "next/head";
 const myFont = localFont({ src: "../Fonts/NimbusSanL-Reg.otf" });
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
+import { sendContactForm } from "@/lib/api";
+
 
 export default function Home() {
   const [show, setShow] = useState(false);
@@ -22,6 +27,54 @@ export default function Home() {
   const [sec2, setSec2] = useState(false);
   const [sec3, setSec3] = useState(false);
   const [sec4, setSec4] = useState(false);
+
+
+  const [bussinessEmail, setBussinessEmail] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+
+  const onSubmit = async (e) => {
+    e.preventDefault();
+
+
+    if (!/^\S+@\S+\.\S+$/.test(bussinessEmail)) {
+      toast.error("Please provide a valid business email.");
+      return;
+    }
+    setIsLoading(true);
+
+    const values = {
+      fullName: "N.A",
+      bussinessEmail,
+      phoneNumber: "N.A",
+      companyName: "N.A",
+    };
+
+    try {
+      await sendContactForm(values);
+      setIsLoading(false);
+      toast.success("Your message has been sent successfully!", {
+        position: "top-right",
+        autoClose: 2000, // Time in milliseconds
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+    } catch (error) {
+      setIsLoading(false);
+      toast.error("An error occurred. Please try again later.", {
+        position: "top-right",
+        autoClose: 2000, // Time in milliseconds
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+    }
+  };
+
   return (
     <>
       <Head>
@@ -716,10 +769,22 @@ export default function Home() {
                   <div>
                     <input
                       className="input-for-email-grab-ujks"
-                      placeholder="Enter Your Bussiness Email"
+                      placeholder="Enter Your Bussiness Email*"
+                      value={bussinessEmail}
+                      onChange={(e) => {
+                        setBussinessEmail(e.target.value);
+                      }}
+
                     />
                   </div>
-                  <button className="try-free-submit-btn-ifd">Submit</button>
+                  <button className="try-free-submit-btn-ifd"
+                    onClick={(e) => {
+                      onSubmit(e);
+                    }}
+                    disabled={isLoading}
+                  >
+                    {isLoading ? "Submit..." : "Submit"}
+                  </button>
                 </div>
               </div>
             </div>
@@ -750,6 +815,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </>
   );
 }

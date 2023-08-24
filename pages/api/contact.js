@@ -10,6 +10,7 @@ const handler = async (req, res) => {
     console.log("requestd")
     if (req.method === "POST") {
         const data = req.body;
+        const { fullName, bussinessEmail, phoneNumber, companyName } = data;
         // if (!data || !data.name || !data.email || !data.subject || !data.message) {
         //     return res.status(400).send({ message: "Bad request" });
         // }
@@ -26,14 +27,23 @@ const handler = async (req, res) => {
             // send mail with defined transport object
             let info = await transporter.sendMail({
                 from: `"Company Name" <${email}>`, // sender address
-                to: "rahulc2303@gmail.com", // list of receivers
+                to: "rahul23.exam@gmail.com", // list of receivers
                 subject: "OTP", // Subject line
                 html: `
-                <div>  
-                   <div style="margin-top: 50px">
-                    message:${data.message}
-                  </div>
+                <div>
+                <div style="margin-top: 50px">
+                  Full Name:- ${fullName}
                 </div>
+                <div style="margin-top: 50px">
+                  Bussiness Email:- ${bussinessEmail}
+                </div>
+                <div style="margin-top: 50px">
+                  Phone Number:- ${phoneNumber}
+                </div>
+                <div style="margin-top: 50px">
+                  Company Name:- ${companyName}
+                </div>
+              </div>
     
                 `,
             });
