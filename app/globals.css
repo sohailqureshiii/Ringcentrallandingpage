@@ -496,6 +496,66 @@ h2 {
     transform: rotate(360deg);
   }
 }
+.efioefkls-esolk-dsk {
+  margin-top: 2em;
+  display: flex;
+  margin-bottom: 3em;
+  justify-content: center;
+}
+.flx-section-wihtjd {
+  width: 80em;
+  display: flex;
+  justify-content: space-between;
+  gap: 5em;
+}
+.flx-with-img-and-hdr-and-para {
+  display: block;
+  gap: 25px;
+}
+
+.flx-fr-im-of-hwye-dis {
+  display: flex;
+  justify-content: center;
+}
+
+.border-for-backgrnd-img-left {
+  display: flex;
+  justify-content: center;
+}
+.border-for-backgrnd-img-left {
+  width: 4.5em;
+  border-radius: 10px;
+  height: 3.8em;
+  margin-bottom: 1em;
+  background: rgb(6, 111, 172);
+  padding: 10px;
+}
+
+.hdr-at-three-section-of-why {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+.para-at-three-section-of-why-choose-us {
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 0.8em;
+  text-align: center;
+}
+
+.fegtrhyugytdrsa {
+  height: 70px;
+}
+
+.image-at-deop-section-sji {
+  height: 35em;
+}
+
+.uparrow-for-dropdown-in-line {
+  height: 20px;
+  width: 20px;
+}
 
 /* -------    Style starts for Responsive -----------  */
 @media (min-width: 320px) and (max-width: 426px) {
@@ -547,7 +607,11 @@ h2 {
   }
 
   .main-layouts-header-two-tag-in-sect {
-    font-size: 18px;
+    font-size: 28px;
+    padding: 0px 15px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    text-align: left;
   }
 
   .pad-for-iframe-view-sj {
@@ -560,7 +624,7 @@ h2 {
     padding: 15px 15px 0px 15px;
   }
   .hdr-abottom-sec-of-drop-dwon {
-    font-size: 16px;
+    font-size: 18px;
   }
   .bliue-box-layout-of-ringcentral-fjke {
     padding: 15px;
@@ -613,6 +677,19 @@ h2 {
     width: 50px;
   }
 
+  .para-at-layout-section-of-left-right-combinat {
+    font-size: 12px;
+  }
+
+  .title-of-left-right-layout-in-faq {
+    font-size: 14px;
+  }
+
+  .flx-in-opt-like-faq-series {
+    padding: 5px 15px;
+    margin-top: 1em;
+  }
+
   /* ---------- Contact us ----------- */
 
   .cta-button-of-contact-sus-ringcenral {
@@ -654,52 +731,31 @@ h2 {
   .last-end-para-of-contatc-us-screen-sayt {
     width: 100%;
   }
-  .efioefkls-esolk-dsk {
-    margin-top: 2em;
-    display: flex;
-    margin-bottom: 3em;
-    justify-content: center;
-  }
+
   .flx-section-wihtjd {
     width: 100%;
     display: block;
     padding: 15px;
   }
   .flx-with-img-and-hdr-and-para {
-    display: block;
-  }
-
-  .border-for-backgrnd-img-left {
-    display: flex;
-    justify-content: center;
-  }
-  .border-for-backgrnd-img-left {
-    width: 4.5em;
-    border-radius: 10px;
-    height: 4.5em;
-    margin-bottom: 1em;
-    background: #0c0a00;
-    padding: 10px;
-  }
-
-  .hdr-at-three-section-of-why {
-    font-size: 28px;
-    font-weight: 600;
-    text-align: center;
+    padding-bottom: 2em;
   }
   .para-at-three-section-of-why-choose-us {
-    line-height: 25px;
-    font-size: 15px;
-    font-weight: 500;
-    padding-top: 0.8em;
-    text-align: center;
+    font-size: 14px;
   }
-
-  .fegtrhyugytdrsa {
-    height: 70px;
+  .background-for-img-at-left-right-layout {
+    width: 100%;
+    margin-top: 2em;
   }
-
   .image-at-deop-section-sji {
-    height: 35em;
+    width: 100%;
+    height: 100%;
+  }
+  .uparrow-for-dropdown-in-line {
+    height: 10px;
+    width: 10px;
+  }
+  .efioefkls-esolk-dsk {
+    margin-bottom: 1em;
   }
 }
