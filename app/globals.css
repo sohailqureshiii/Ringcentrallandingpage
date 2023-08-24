@@ -1,0 +1,705 @@
+h1 {
+  display: block;
+  font-size: large;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 600;
+}
+
+h5 {
+  display: block;
+  font-size: 0em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+body {
+  display: block;
+  margin: 0px;
+}
+
+h3 {
+  display: block;
+  font-size: large;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 600;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+/* -------------- Starts ----------------------- */
+
+.flx-in-xenter-for-logo-ring-central-at-sj {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.main-flx-of-navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #2222222b;
+  padding: 1em 0em;
+}
+
+.backgrond-for-home-layout {
+  background-color: #f6f5f1;
+  padding-bottom: 4em;
+}
+
+.fix-width-for-center-section-at-ringcentral {
+  width: 80em;
+}
+
+.pad-for-iframe-view-sj {
+  padding: 3em 0em 6em 0em;
+}
+
+.flex-center-section-of-main-layout {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-button-of-contact-sus-ringcenral {
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  background: #066fac;
+  padding: 14px 23px;
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.flx-options-of-thre-sjc-s {
+  border-radius: 50px;
+  padding: 10px 19px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 18px;
+  background: #cfcfcf52;
+  color: #222;
+}
+
+.main-header-of-ring-central-header-one-tag {
+  text-align: center;
+  font-size: 46px;
+  color: #222;
+  letter-spacing: 1.5px;
+}
+
+.firts-contain-ringcentral {
+  padding-top: 125px;
+}
+
+.low-hd-pad-sj {
+  padding: 1em 0em 2em 0em;
+}
+
+.para-for-main-title-in-ringcentral-main-layout {
+  text-align: center;
+  padding: 1em 14em;
+  color: #222;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  --rowGap: 20px;
+  letter-spacing: 1px;
+}
+
+.Cta-another-btn-for-contct-ius-cd {
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  background: rgb(6, 111, 172);
+  padding: 14px 62px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.ctc-for-download-white-appaer-at-main-layout {
+  border-radius: 5px;
+  border: 1px solid rgb(6, 111, 172);
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  background: rgb(255, 255, 255);
+  padding: 14px 20px;
+  color: rgb(6, 111, 172);
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.main-layouts-header-two-tag-in-sect {
+  text-align: center;
+  font-size: 37px;
+  color: #222;
+  letter-spacing: 1px;
+}
+
+.division-for-say-ggobye-section-skm {
+  padding: 5em 0em;
+}
+
+.flx-in-btns-of-cta-at-main-layout {
+  display: flex;
+  justify-content: center;
+  padding: 1em 0em 1.5em 0em;
+  gap: 4em;
+}
+
+.hdr-of-left-and-right-section-in-layout {
+  text-align: left;
+  font-size: 32px;
+  color: #222;
+  letter-spacing: 0.5px;
+}
+
+.para-at-layout-section-of-left-right-combinat {
+  color: #222;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  --rowGap: 20px;
+  letter-spacing: 0.4px;
+}
+
+.flx-directioin-of-img-and-content {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 4em;   */
+  background: #f6f5f1;
+  padding: 15px 40px 26px 40px;
+  margin: 0px 30px;
+}
+
+.background-for-img-at-left-right-layout {
+  width: 35em;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+}
+
+.width-and-lenthg-for-layout-of-content {
+  width: 30em;
+}
+
+.flx-in-opt-like-faq-series {
+  align-items: center;
+  background: #cfcfcf52;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  cursor: pointer;
+  padding: 15px;
+  border: 1px solid #f6f5f1;
+}
+
+.title-of-left-right-layout-in-faq {
+  color: #222;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  --rowGap: 20px;
+  letter-spacing: 0.4px;
+}
+
+.right-side-down-arrow {
+  font-size: 25px;
+}
+
+.flx-otsite-direc {
+  flex-direction: row-reverse;
+}
+
+.padding-bottom-large-insec-lay {
+  padding-bottom: 1em;
+}
+
+.nextheader-of-bottom-setion-nslas {
+  font-size: 36px;
+  color: #222;
+  letter-spacing: 1px;
+  padding-bottom: 1em;
+}
+
+.parra-at-bottom-sect-in-line-view-kajd {
+  padding: 0.5em 0em 0em 0em;
+  color: #222;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  --rowGap: 20px;
+  letter-spacing: 0.4px;
+}
+
+.flx-in-of-custer-drop-den-sena-ringcentral {
+  align-items: center;
+  background: #f6f5f1;
+  margin: 0px 31px 0px 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  cursor: pointer;
+  padding: 15px;
+  border: 1px solid #f6f5f1;
+}
+
+.hdr-abottom-sec-of-drop-dwon {
+  color: #222;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.5;
+  --rowGap: 20px;
+  letter-spacing: 0.4px;
+}
+
+.plus-sing-at-this-drop-section-s {
+  color: #222;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.5;
+  --rowGap: 20px;
+  letter-spacing: 0.4px;
+}
+
+.flx-of-blue-and-white-layout-sect {
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+.box-of-content-in-section-white {
+  border-top-left-radius: 15px;
+  width: 45em;
+  border: 1px solid #222;
+  padding: 40px;
+}
+
+.hedr-at-white-box-sect {
+  font-size: 37px;
+  color: #222;
+  letter-spacing: 1px;
+}
+
+.parra-at-white-box-layout {
+  padding-top: 10px;
+  color: #222;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  --rowGap: 20px;
+  letter-spacing: 1px;
+}
+.bliue-box-layout-of-ringcentral-fjke {
+  width: 25em;
+  background: #031b3a;
+  border-top-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-for-email-grab-ujks {
+  border: none;
+  font-size: 16px;
+  background: #f6f5f1;
+  padding: 15px;
+  width: 15em;
+  border-radius: 5px;
+  color: #222;
+}
+.try-free-submit-btn-ifd {
+  cursor: pointer;
+  margin-top: 0.5em;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  background: #fff10b;
+  font-weight: 600;
+}
+
+.background-and-end-of-landing-apge {
+  background: #002855;
+  display: flex;
+  justify-content: center;
+}
+
+.headr-at-footer-upper-section {
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  padding-top: 90px;
+}
+
+.flx-three-ease-fre-ise-opti {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  padding: 2em;
+}
+.opsnf-skj-dfjsdvm {
+  padding: 5px 20px;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+
+/* -------------- Contact Us -------------- */
+
+.header-at-contact-us-layout-jkds {
+  font-size: 48px;
+  color: #222;
+  letter-spacing: 1.5px;
+  padding-bottom: 1em;
+  line-height: 56px;
+}
+
+.para-at-contact-us-screen-next-bottom {
+  color: #222;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  --rowGap: 20px;
+  letter-spacing: 1px;
+  width: 28em;
+  padding-top: 1.5em;
+}
+
+.flx-in-contact-form-insihf-ringcengtral {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pad-content-ofin-left-section {
+  padding: 4em;
+}
+
+.backgrnd-clr-and-form-section {
+  background: #f1f0ef;
+  padding: 4em;
+}
+
+.read-se-header-at-form-section {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 1em;
+}
+
+.input-of-ringcentral-landing-page-area {
+  width: 25em;
+  border: 1px solid #8c8c8c;
+  padding: 14px 0 15px 12px;
+  font-size: 18px;
+  color: #222;
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  letter-spacing: 1px;
+}
+
+.flx-gap-off-btn-andfielda {
+  padding-top: 0.5em;
+  gap: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.cta-btn-at-form-section-of-contact {
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-style: normal;
+  background: #066fac;
+  padding: 15px 30px;
+  color: #fff;
+  letter-spacing: 0.65px;
+  cursor: pointer;
+}
+
+.required-fields-texts-at-contact {
+  font-size: 12px;
+  color: #222222b3;
+  letter-spacing: 1px;
+}
+
+.last-end-para-of-contatc-us-screen-sayt {
+  width: 35em;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #222222b3;
+  padding-top: 1em;
+}
+
+.bottm-paddig {
+  padding-bottom: 90px;
+}
+
+.loading-spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.loading-spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top: 2px solid #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* -------    Style starts for Responsive -----------  */
+@media (min-width: 320px) and (max-width: 426px) {
+  .firts-contain-ringcentral {
+    padding-top: 75px;
+  }
+  .flx-in-xenter-for-logo-ring-central-at-sj {
+    padding: 0px 15px;
+    display: block;
+    padding-bottom: 1em;
+  }
+  .main-flx-of-navigation-bar {
+    padding: 10px 15px 10px 15px;
+  }
+  .fix-width-for-center-section-at-ringcentral {
+    width: 100%;
+  }
+  .main-header-of-ring-central-header-one-tag {
+    font-size: 28px;
+    padding: 0px 15px;
+    text-align: left;
+    letter-spacing: 0.8px;
+  }
+  .para-for-main-title-in-ringcentral-main-layout {
+    font-size: 18px;
+    padding: 15px;
+    text-align: left;
+  }
+  .flx-in-btns-of-cta-at-main-layout {
+    display: block;
+    padding: 0em 15px 1.5em 15px;
+  }
+  .Cta-another-btn-for-contct-ius-cd {
+    margin-bottom: 1em;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .flx-options-of-thre-sjc-s {
+    margin: 15px 0px;
+    font-size: 15px;
+    width: 90%;
+  }
+
+  .ctc-for-download-white-appaer-at-main-layout {
+    margin-bottom: 1em;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .main-layouts-header-two-tag-in-sect {
+    font-size: 18px;
+  }
+
+  .pad-for-iframe-view-sj {
+    padding: 3em 15px 6em 15px;
+  }
+
+  .flx-in-of-custer-drop-den-sena-ringcentral {
+    padding: 15px;
+    margin: 15px 15px 0px 15px;
+    padding: 15px 15px 0px 15px;
+  }
+  .hdr-abottom-sec-of-drop-dwon {
+    font-size: 16px;
+  }
+  .bliue-box-layout-of-ringcentral-fjke {
+    padding: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: block;
+    border-top-right-radius: 0px;
+    width: 90%;
+  }
+  .input-for-email-grab-ujks {
+    width: 90%;
+  }
+  .headr-at-footer-upper-section {
+    font-size: 32px;
+  }
+  .flx-three-ease-fre-ise-opti {
+    display: block;
+  }
+  .opsnf-skj-dfjsdvm {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .flx-of-blue-and-white-layout-sect {
+    display: block;
+    padding: 15px;
+    margin-top: 2em;
+  }
+  .box-of-content-in-section-white {
+    width: 89.6%;
+    border-top-right-radius: 15px;
+    padding: 15px;
+  }
+  .hedr-at-white-box-sect {
+    font-size: 28px;
+  }
+  .parra-at-white-box-layout {
+    font-size: 16px;
+  }
+
+  .width-and-lenthg-for-layout-of-content {
+    width: 100%;
+  }
+  .flx-directioin-of-img-and-content {
+    display: block;
+    margin: 0px 15px;
+    padding: 20px;
+  }
+  .fegtrhyugytdrsa {
+    height: 50px;
+    width: 50px;
+  }
+
+  /* ---------- Contact us ----------- */
+
+  .cta-button-of-contact-sus-ringcenral {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  .flx-in-contact-form-insihf-ringcengtral {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .pad-content-ofin-left-section {
+    padding: 15px;
+  }
+  .header-at-contact-us-layout-jkds {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .para-at-contact-us-screen-next-bottom {
+    font-size: 12px;
+    width: 100%;
+  }
+  .backgrnd-clr-and-form-section {
+    padding: 15px;
+  }
+  .input-of-ringcentral-landing-page-area {
+    width: 95%;
+  }
+  .flx-gap-off-btn-andfielda {
+    display: block;
+  }
+  .cta-btn-at-form-section-of-contact {
+    width: 100%;
+  }
+  .required-fields-texts-at-contact {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .last-end-para-of-contatc-us-screen-sayt {
+    width: 100%;
+  }
+  .efioefkls-esolk-dsk {
+    margin-top: 2em;
+    display: flex;
+    margin-bottom: 3em;
+    justify-content: center;
+  }
+  .flx-section-wihtjd {
+    width: 100%;
+    display: block;
+    padding: 15px;
+  }
+  .flx-with-img-and-hdr-and-para {
+    display: block;
+  }
+
+  .border-for-backgrnd-img-left {
+    display: flex;
+    justify-content: center;
+  }
+  .border-for-backgrnd-img-left {
+    width: 4.5em;
+    border-radius: 10px;
+    height: 4.5em;
+    margin-bottom: 1em;
+    background: #0c0a00;
+    padding: 10px;
+  }
+
+  .hdr-at-three-section-of-why {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .para-at-three-section-of-why-choose-us {
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 0.8em;
+    text-align: center;
+  }
+
+  .fegtrhyugytdrsa {
+    height: 70px;
+  }
+
+  .image-at-deop-section-sji {
+    height: 35em;
+  }
+}
